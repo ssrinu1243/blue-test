@@ -15,11 +15,6 @@ pipeline {
         )
       }
     }
-    stage('stage2') {
-      steps {
-        echo 'how r u'
-      }
-    }
     stage('stage3') {
       steps {
         sh 'mvn clean compile package'
